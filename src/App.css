@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+:root {
+  --platinum: #E0E1DD;
+  --silver-lake-blue: #778da9;
+  --mid-blue: #415A77;
+  --oxford-blue: #1B263B;
+  --rich-black: #0D1B2A;
+}
+.txt-platinum {
+  color: var(--platinum);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.txt-mid-blue {
+  color: var(--mid-blue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.txt-rick-black {
+  color: var(--rich-black);
+}
+.txt-oxford-blue {
+  color: var(--oxford-blue);
+}
+.txt-silver-lake {
+  color: var(--silver-lake-blue)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#app {
+  background-color: var(--platinum);
 }
 
-.App-link {
-  color: #61dafb;
+#header {
+  background-color: var(--oxford-blue);
+ color: var(--platinum);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-silver-lake {
+  background-color: var(--silver-lake-blue);
+}
+
+.bg-oxford-blue {
+  background-color: var(--oxford-blue);
+}
+
+.bg-platinum {
+  background-color: var(--platinum);
+}
+
+.bg-mid-blue {
+  background-color: var(--mid-blue);
+}
+.border-none {
+  border: none;
 }
