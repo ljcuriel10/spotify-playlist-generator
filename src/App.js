@@ -32,7 +32,6 @@ function App() {
 
     const getPlaylists = async () => {
       const response = await Spotify.getPlaylists(accessToken)
-      console.log(response)
     }
     getProfile();
     getTracks();
